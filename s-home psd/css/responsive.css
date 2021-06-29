@@ -1,0 +1,171 @@
+@media all and (max-width: 990px) {
+	.menu-area ul li a {
+		font-size: 16px;
+		padding: 0px 10px;
+	}
+	.single-feed i {
+		width: 20px;
+		height: 20px;
+		font-size: 16px;
+	}
+	.single-feed p {
+		font-size: 9px;
+	}
+	.intro p {
+		font-size: 16px;
+	}
+	.intro h3 {
+		font-size: 14px;
+	}
+	.intro ul li a {
+		font-size: 14px;
+	}
+	.intro h3::after {
+		width: 221px;
+		left: 35%;
+		top: 89px;
+	}
+	.development-title p {
+		font-size: 16px;
+	}
+	.development-title p a {
+		font-size: 14px;
+	}
+	.all-develop {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.home-title p {
+		font-size: 20px;
+	}
+	.single-testimonial-content p {
+		font-size: 12px;
+		padding: 0px 16%;
+	}
+	.single-testimonial-content h3 {
+		font-size: 12px;
+		padding-bottom: 30px;
+	}
+	.testimonial-title h1 {
+		font-size: 35px;
+		margin-bottom: 37px;
+		padding-top: 44px;
+	}
+	.social-media a {
+		font-size: 16px;
+		margin-left: 0px;
+	}
+	.logo-image ul li {
+		margin: 5px;
+	}
+	.social-media ul {
+		margin-right: 18px;
+	}
+	.copyright p {
+		font-size: 6px;
+	}
+	.copyright span {
+		font-size: 6px;
+	}
+}
+@media all and (max-width: 768px) {
+	.logo-area {
+		margin: 0px auto;
+	}
+	.contact ul {
+		margin-right: 6px;
+	}
+	.menu-area {
+		margin: 20px auto;
+	}
+	.slider-area {
+		height: 68vh;
+	}
+	.single-feed {
+		width: 46%;
+	}
+	.single-feed p {
+		font-size: 13px;
+		margin-bottom: 36px;
+	}
+	.single-feed:nth-child(2) {
+		border-right: none;
+	}
+	.intro p {
+		font-size: 12px;
+	}
+	.intro h3 {
+		font-size: 10px;
+	}
+	.intro ul li a {
+		font-size: 10px;
+	}
+	.intro h3::after {
+		width: 186px;
+		left: 33%;
+		top: 78px;
+	}
+	.intro h1 {
+		font-size: 23px;
+	}
+	.development-title p {
+		font-size: 12px;
+	}
+	.development-title p a {
+		font-size: 11px;
+	}
+	.development-title h1 {
+		font-size: 22px;
+	}
+	.single-develop img {
+		width: 100%;
+	}
+	.single-develop h3 {
+		font-size: 16px;
+		margin: 19px 0px 0px 44px;
+	}
+	.single-develop h4 {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
+	.single-develop p {
+		font-size: 12px;
+		margin-bottom: 29px;
+	}
+	.home-title h1 {
+		font-size: 22px;
+	}
+	.home-title p {
+		font-size: 13px;
+	}
+	.all-home {
+		grid-template-columns: repeat(2,1fr);
+	}
+	.testimonial-title h1 {
+		font-size: 22px;
+		margin-bottom: 22px;
+		padding-top: 35px;
+	}
+	.single-testimonial-content p {
+		font-size: 10px;
+		padding: 0px 11%;
+	}
+	.single-testimonial-content h3 {
+		font-size: 10px;
+		padding-bottom: 17px;
+	}
+	.social-media a {
+		font-size: 12px;
+	}
+	.social-media ul li {
+		width: 20px;
+		height: 20px;
+		margin-right: 4px;
+	}
+	.fotter-right {
+		width: 51%;
+		margin: 10px 0px;
+	}
+	.logo-image a img {
+		width: 68%;
+	}
+}

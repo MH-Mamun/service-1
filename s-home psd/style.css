@@ -1,0 +1,1728 @@
+/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Titillium Web', sans-serif;*/
+
+/*TYPOGRAPHY*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+body {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	color: #777777;
+}
+.container {
+	max-width: 1170px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+.section-padding {
+	padding:95px 0px;
+}
+.section-heading h3 {
+	font-size: 24px;
+	font-weight:300;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333333;
+	text-align: center;
+	text-transform: uppercase;
+}
+.section-heading h1 {
+	font-size: 28px;
+	font-weight: 700;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333333;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	padding-bottom: 116px;
+}
+.section-heading h1::after {
+	content: "";
+	position: absolute;
+	width: 65px;
+	height: 1px;
+	background: #ccc;
+	top: 83px;
+	left: 42%;
+}
+.section-heading h1::before {
+	content: "";
+	position: absolute;
+	width: 65px;
+	height: 1px;
+	background: #ccc;
+	top: 83px;
+	left: 52%;
+}
+.section-heading {
+	position: relative;
+}
+.section-heading img {
+	position: absolute;
+	top: 97px;
+	left: 49%;
+}
+
+
+===========
+====CSS====
+/*header area start*/
+
+
+
+.header-area {
+	background-color: rgb(0, 0, 0);
+	opacity: 0.749;
+}
+.header-area {
+	background-color: rgb(0, 0, 0);
+	opacity: 0.749;
+}
+.topber {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	overflow: hidden;
+	background-color: rgb( 255, 255, 255 );
+    box-shadow: 1.5px 2.598px 5px 0px rgb( 0, 0, 0 );
+}
+
+.logo-area {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-left: 23px;
+}
+.logo-image img {
+	margin-right: 10px;
+	height: 37px;
+}
+.logo-content {
+	display: grid;
+}
+.logo-content a h1 {
+	font-size: 21px;
+  	font-family: "Titillium";
+  	color: rgb( 51, 51, 51 );
+ 	font-weight: bold;
+  	text-transform: uppercase;
+  	line-height: 0.818;
+ 	text-align: left;
+}
+.logo-content a h3 {
+	font-size: 13px;
+	font-family: "Titillium";
+	color: rgb( 119, 119, 119 );
+	text-transform: uppercase;
+	line-height: 1.286;
+	text-align: left;
+	margin-top: 6px;
+}
+.top {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(6, 6, 6);
+	border-bottom-left-radius: 10px;
+}
+
+.menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: left;
+}
+.menu ul li {
+	padding: 16px 30px;
+	font-size: 11px;
+  font-family: "Lato";
+  color: rgb( 204, 204, 204 );
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 400;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #DDD;
+	border-top: 1px solid #DDD;
+  	transition: 0.1s;
+
+}
+.menu ul li a {
+  font-size: 11px;
+  font-family: "Lato";
+  color: rgb( 204, 204, 204 );
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 400;
+}
+
+
+.media-list {
+	margin-left: 64px;
+}
+.media-list ul {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.media-list ul li {
+	
+	position: relative;
+   
+    
+}
+.media-list ul li a {
+	font-size: 12px;
+    font-family: "FontAwesome";
+    color: rgb( 204, 204, 204 );
+     z-index: 2;
+     padding: 16px 22px;
+    position: relative;
+}
+.media-list ul li a i {
+	
+   
+    
+}
+.media-list ul li::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: rgb(136, 124, 99);
+	top: 100%;
+	left: 0;
+	transition: 1s;
+	z-index: 1;
+	opacity: 0;
+}
+.media-list ul li:hover:after {
+	top: 0%;
+	opacity: 1;
+	
+	
+}
+.bottom {
+	margin-left: 17px;
+}
+.bottom ul {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.bottom ul li {
+	padding: 15px 14px;
+
+}
+.bottom ul li a {
+	font-size: 13px;
+    font-family: "Titillium";
+    color: rgb( 51, 51, 51 );
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    transition: 0.5s;
+
+}
+.bottom ul li a:hover {
+	color: rgb( 255, 177, 24 );
+	border-top: 1px solid rgb( 255, 177, 24 );
+	border-bottom: 1px solid rgb( 255, 177, 24 );
+	
+}
+.bottom ul li a.active {
+	color: rgb( 255, 177, 24 );
+}
+.bottom ul li a.button {
+	background-color: rgb( 255, 177, 24 );
+	width: 188px;
+	height: 51px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 84px;
+	color: #FFF;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.bottom-ber {
+	margin-top: 120px;
+}
+.bottom-ber h3 {
+	font-size: 36px;
+	font-family: "Titillium";
+	color: rgba(255, 255, 255, 0.7);
+	text-align: left;
+	font-weight: 300;
+}
+.bottom-ber h1 {
+	font-size: 31px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	position: relative;
+	margin-bottom: 65px;
+}
+.bottom-ber p {
+	font-size: 20px;
+	font-family: "Lato";
+	color: rgb( 255, 255, 255 );
+	text-align: left;
+	margin-bottom: 45px;
+}
+.bottom-ber h1::after {
+	content: "";
+	width: 18px;
+	height: 3px;
+	background: rgb( 255, 177, 24 );
+	position: absolute;
+	left: 0%;
+	top: 45px;
+}
+.bottom-ber h1::before {
+	content: "";
+	width: 18px;
+	height: 3px;
+	background: #FFF;
+	position: absolute;
+	left: 2%;
+	top: 45px;
+}
+button {
+	background-color: rgb( 255, 255, 255 );
+	width: 161px;
+	height: 45px;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+button h4  {
+	font-size: 14px;
+	font-family: "Myriad Pro";
+	color: rgb( 51, 51, 51 );
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+}
+button h4::after {
+	content: "";
+	position: absolute;
+	width: 6px;
+	height: 6px;
+	background: #FFF;
+	left: 156px;
+	top: 5px;
+}
+button h4::before {
+	content: "";
+	position: absolute;
+	width: 45px;
+	height: 45px;
+	background: rgb( 255, 177, 24 );
+	bottom: -13px;
+	left: 137px;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 34% 100%);
+}
+.slider-nav-icon {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.icon-list ul li a i {
+	width: 40px;
+	height: 40px;
+	background-color: rgba(15, 15, 15, 0.07);
+	color: #FFFFFFE0;
+	margin-bottom: 2px;
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-list ul li a.active {
+	background-color: rgb( 255, 177, 24 );
+}
+.icon-list ul li a:hover {
+	background-color: rgb( 255, 177, 24 );
+}
+
+
+
+/*service area start*/
+
+.service-area {
+	background-color: rgb( 246, 246, 246 );
+}
+.service-area-two {
+	position: relative;
+}
+
+.service-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.single-box {
+	background-color: rgb( 255, 255, 255 );
+	box-shadow: 0.5px 0.866px 6px 0px rgb( 0, 0, 0 );
+	width: 361px;
+	height: 336px;
+	margin-top: -75px;
+	border-bottom: 4px solid rgb( 119, 119, 119 );
+	margin-bottom: 105px;
+}
+.box-image {}
+.box-image img {
+	margin: 50px 135px;
+	height: 57px;
+}
+.single-box h2 {
+	font-size: 16px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-bottom: 23px;
+	margin-bottom: 58px;
+	margin-top: 54px;
+}
+.single-box p {
+	font-size: 12px;
+	font-family: "Myriad Pro";
+	color: rgb(145, 143, 143);
+	text-align: center;
+	position: relative;
+}
+.single-box h3 {
+	font-size: 12px;
+	font-family: "Myriad Pro";
+	color: rgb(145, 143, 143);
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 65px;
+	position: relative;
+}
+.single-box h3::after {
+	content: "";
+	position: absolute;
+	width: 91px;
+	height: 2px;
+	background: #C1C1C1;
+	top: 29px;
+	left: 37%;
+}
+.single-box p::after {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: rgb( 255, 177, 24 );
+	position: absolute;
+	left: 47%;
+	bottom: -100%;
+}
+.single-box p::before {
+	content: "";
+	width: 8px;
+	height: 8px;
+	background: #000;
+	position: absolute;
+	left: 51%;
+	bottom: -100%;
+}
+.single-box:nth-child(2) {
+	background: rgb( 34, 34, 34 );
+	border-bottom: 2px solid rgb( 255, 177, 24 );
+}
+.single-box:nth-child(2) h2 {
+	color: rgb( 255, 177, 24 );
+}
+.single-box:nth-child(2) p::before {
+	background-color: #FFF;
+}
+
+/*misson area start*/
+.misson-logo {
+	position: relative;
+}
+.misson-logo img {
+	position: absolute;
+	left: 46%;
+	padding: 20px 11px;
+	bottom: -47px;
+	border: 2px solid #a8a5a5;
+	border-radius: 50%;
+	box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.1);
+}
+.misson-title {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 28px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	text-align: left;
+	margin-bottom: 60px;
+}
+.misson-content p {
+	font-size: 16px;
+	font-family: "Merriweather";
+	color: rgb( 0, 0, 0 );
+	font-style: italic;
+	line-height: 1.75;
+	text-align: center;
+}
+.signesar {
+	display: flex;
+	justify-content: center;
+	margin: 60px 0px;
+}
+.signesar h3 {
+	font-size: 12px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-right: 20px;
+	padding-top: 8px;
+	position: relative;
+}
+.signesar h3::after {
+	content: "";
+	position: absolute;
+	width: 279px;
+	height: 1px;
+	background: #DDD;
+	top: 41px;
+	left: -6px;
+}
+.signesar h3::before {
+	content: "";
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	background: coral;
+	top: 13px;
+	left: 126px;
+}
+.signesar img {
+	background-image: url("images/signature.png");
+	width: 117px;
+	height: 28px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20px;
+}
+
+/*misson area end*/
+
+/*video area start*/
+.arrow {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 157px;
+}
+.fact {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 50px;
+}
+.single-fact {
+	margin-bottom: 80px;
+}
+.single-fact-two {
+	margin-bottom: 80px;
+}
+.single-fact h1 {
+	font-size: 38px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+}
+.single-fact p {
+	text-align: right;
+	position: relative;
+} 
+.single-fact p::after {
+	content: "";
+	position: absolute;
+	background-color: rgb( 255, 177, 24 );
+	width: 6px;
+	height: 6px;
+	top: 50px;
+	right: 12px;
+}
+.single-fact p::before {
+	content: "";
+	position: absolute;
+	 background-color: rgb( 51, 51, 51 );
+	width: 6px;
+	height: 6px;
+	top: 50px;
+	right: 0px;
+}
+.single-fact:nth-child(3) p::after {
+	background: transparent;
+}
+.single-fact:nth-child(3) p::before {
+	background: transparent;
+}
+.single-fact-two h1 {
+	font-size: 38px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+.single-fact-two p {
+	text-align: left;
+	position: relative;
+}
+.single-fact-two p::after {
+	content: "";
+	position: absolute;
+	background-color: rgb( 255, 177, 24 );
+	width: 6px;
+	height: 6px;
+	top: 50px;
+	left: 0px;
+}
+.single-fact-two p::before {
+	content: "";
+	position: absolute;
+	 background-color: rgb( 51, 51, 51 );
+	width: 6px;
+	height: 6px;
+	top: 50px;
+	left: 12px;
+}
+.single-fact-two:nth-child(3) p::after {
+	background: transparent;
+}
+.single-fact-two:nth-child(3) p::before {
+	background: transparent;
+}
+.single-fact:nth-child(3) {
+	margin-bottom: 0px;
+}
+.single-fact-two:nth-child(3) {
+	margin-bottom: 0px;
+}
+.video-button {
+	text-align: center;
+	margin: -52px 0px 95px 0px;
+	
+}
+.video-button p {
+	margin-top: -23px;
+}
+.video-button button {
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb( 51, 51, 51 );
+	background-color: rgba( 51, 51, 51, 0 );
+	width: 50px;
+	height: 51px;
+	border-bottom-left-radius: 8px;
+}
+/*video area end*/
+
+/*our service strat*/
+
+.small-service {
+	display: flex;
+	justify-content: flex-start;
+}
+.service-image {
+	width: 50%;
+	position: relative;
+}
+
+.service-image::before {
+	content: "";
+	background-color: rgb( 34, 34, 34 );
+	position: absolute;
+	right: -675px;
+	top: 0px;
+	width: 675px;
+	height: 590px;
+	z-index: 1;
+}
+
+
+.service-image a {
+	display: inline-block;
+}
+
+.service-image img {
+	width: 100%;
+	height: 590px;
+}
+.all-item {
+	width: 50%;
+	display: flex;
+	position: relative;
+	z-index: 2;
+}
+.single-item ul li {
+	
+}
+.single-item ul li::after {
+	content: "";
+	background-color: rgb(255, 255, 255);
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	top: 36px;
+	left: 43px;
+}
+.single-item ul li::before {
+	content: "";
+	background-color: rgb(255, 177, 24);
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	top: 36px;
+	left: 34px;
+}
+.single-item ul li {
+	padding: 31px 40px 31px 70px;
+	background-color: rgba(255, 255, 255, 0.14);
+	position: relative;
+}
+.single-item ul li a.button {
+	
+	font-size: 12px;
+	font-family: "Titillium";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	display: flex;
+	align-items: center;
+	
+}
+.single-item ul li:nth-child(3) {
+	background: rgb(255, 177, 24);
+}
+.single-item ul li:nth-child(3)::before {
+	background: transparent;
+}
+.single-item ul li:nth-child(3)::after {
+	background: transparent;
+}
+
+ .all-single {
+ 	position: relative;
+ 	z-index: 2;
+ }
+ .all-single i {
+	margin: 25px 0px 25px 125px;
+}
+.content-image {
+	position: relative;
+}
+.content-image img {
+	height: 153px;
+	margin: 100px 0px 85px 168px;
+	position: relative;
+	padding-bottom: 15px;
+}
+.service-content p {
+	font-size: 12px;
+	color: rgb( 221, 221, 221 );
+	text-align: center;
+	margin-left: 69px;
+	margin-bottom: 38px;
+}
+
+.content-image::before {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background: #FFF;
+	position: absolute;
+	left: 60%;
+	bottom: 17%;
+}
+.content-image::after {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background: rgb( 255, 177, 24 );
+	position: absolute;
+	left: 56%;
+	bottom: 17%;
+}
+
+/*portfolio area start*/
+
+.portfolio-title p {
+	font-size: 16px;
+	font-family: "Titillium";
+	font-weight: 400;
+	color: rgb( 51, 51, 51 );
+	text-transform: uppercase;
+	line-height: 1.625;
+	text-align: center;
+	margin-bottom: 95px;
+}
+.portfolio-item {
+	margin-left: 72px;
+}
+.single-items {
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.single-item-image {
+	position: relative;
+}
+
+.content {
+	margin: 0px 48px 60px 0px;
+	width: 29%;
+}
+.content h1 {
+	font-size: 16px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	margin-bottom: 20px;
+	position: relative;
+}
+.content h1::after {
+	content: "";
+	background-color: rgb( 51, 51, 51 );
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	right: -12px;
+}
+.content h1::before {
+	content: "";
+	background-color: rgb( 255, 177, 24 );
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	bottom: 2px;
+	right: -12px;
+}
+.content p {
+	font-size: 12px;
+	font-family: "Myriad Pro";
+	color: rgb( 0, 0, 0 );
+	line-height: 1.833;
+	text-align: right;
+}
+.single-item-image img {
+	height: 43%;
+}
+.arrow-image img {
+	margin-left: 29%;
+}
+
+/*quote area start*/
+
+.quote-area {
+	position: relative;
+}
+.main-quote {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.quote-one {
+	background: #333;
+	width: 49.5%;
+	height: 147px;
+	border-bottom-right-radius: 5px;
+}
+.quote-left {
+	text-align: center;
+	font-size: 18px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 60px;
+}
+.quote-two {
+	width: 49.5%;
+	background: darkorange;
+	height: 147px;
+	border-bottom-left-radius: 5px;
+}
+.quote-right {
+	text-align: center;
+	font-size: 18px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-top: 60px;
+	margin-right: 61px;
+}
+.quote-image img {
+	position: absolute;
+	top: 40px;
+	left: 47.5%;
+	border-radius: 50%;
+	background-color: #FFF;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #EAE9E9;
+	height: 22px;
+	padding: 17px 11px;
+}
+
+/*contact area start*/
+
+.contact-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.contact-form {
+
+}
+.contact-form form {
+	display: inline-grid;
+	margin-top: 77px;
+}
+.contact-form form input {
+	padding: 20px 1%;
+	padding-left: 24px;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 24px;
+	text-transform: uppercase;
+}
+textarea {
+	width: 500px;
+	height: 188px;
+	font-size: 12px;
+	font-family: "Lato";
+	color: rgb( 0, 0, 0 );
+	text-transform: uppercase;
+	text-align: left;
+	padding: 24px 0px 0px 24px;
+	resize: none;
+	margin-bottom: 24px;
+}
+.disination-form {
+	display: flex;
+	justify-content: space-between;
+}
+.disination-form input {
+	width: 221px;
+}
+.logistic-form {
+	display: flex;
+	justify-content: space-between;
+}
+.logistic-form  input {
+	width: 221px;
+}
+.contact-form form input[type="submit"] {
+	padding: 15px 20px;
+	width: 165px;
+	font-size: 14px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	background: rgba(51, 51, 51, 51);
+}
+.FQAS.area {
+	margin-top: 13px;
+}
+.box-one {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb( 238, 238, 238 );
+	background-color: rgb( 246, 246, 246 );
+	width: 522px;
+	height: 69px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 18px;
+}
+.box-one h2 {
+	font-size: 16px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	text-transform: uppercase;
+	text-align: left;
+	position: relative;
+}
+.box-one button {
+	background-color: rgb( 51, 51, 51 );
+	width: 51px;
+	height: 44px;
+	color: #FFF;
+	right: 0px;
+	margin-right: -13px;
+	margin-top: 39px;
+	cursor: pointer;
+	border: none;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 34% 100%);
+}
+.box-one:nth-child(2) {
+	display: block;
+	border-style: solid;
+  	border-width: 1px;
+  	border-color: rgb( 238, 238, 238 );
+  	background-color: rgb( 255, 255, 255 );
+  	width: 522px;
+  	height: 173px;
+  	position: relative;
+}
+.box-one:nth-child(2) h2 {
+	margin: 30px 30px;
+}
+.box-one:nth-child(2) button {
+	position: absolute;
+	right: 25px;
+	top: -26px;
+	background-color: rgb( 255, 177, 24 );
+	border: none;
+}
+.box-one:nth-child(2) p {
+	 font-size: 12px;
+  font-family: "Myriad Pro";
+  color: rgb( 0, 0, 0 );
+  line-height: 1.833;
+  text-align: left;
+  margin-left: 30px; 
+}
+.box-one p::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background-color: rgb( 255, 177, 24 );
+	bottom: 63%;
+	left: 30px;
+}
+.box-one p::before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: #333;
+	bottom: 63%;
+	left: 44px;
+}
+.fqs-content p {
+	font-size: 14px;
+  font-family: "Lato";
+  color: rgb( 0, 0, 0 );
+  font-style: italic;
+  line-height: 1.833;
+  text-align: center;
+  position: relative;
+}
+.fqs-content p::after {
+	content: "";
+	background-color: rgb( 51, 51, 51 );
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	right: 48.5%;
+	top: 147%;
+}
+
+.fqs-content p::before {
+	content: "";
+	background-color: rgb( 255, 177, 24 );
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	bottom: -30px;
+	left: 48%;
+}
+
+.fqs-content h1 {
+	font-size: 14px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 65px;
+	position: relative;
+}
+.fqs-content h1::after {
+	content: "";
+	position: absolute;
+	width: 133px;
+	height: 1px;
+	background: #DDD;
+	bottom: -12px;
+	left: 37%;
+}
+
+/*testimonial area start*/
+
+.testimonial-area.section-padding {
+	background-color: rgb( 0, 0, 0 );
+	opacity: 0.851;
+}
+.testimonial-title h1 {
+	font-size: 38px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px 0px 75px -255px;
+	position: relative;
+}
+.testimonial-title h1::after {
+	content: "";
+	width: 10px;
+	height: 2px;
+	position: absolute;
+	background-color: rgb( 255, 177, 24 );
+	left: 39.5%;
+	top: 48px;
+}
+.testimonial-title h1::before {
+	content: "";
+	width: 10px;
+	height: 2px;
+	position: absolute;
+	background: #FFF;
+	left: 40.5%;
+	top: 48px;
+}
+.testimonial-image a {
+	display: inline-block;
+	width: 100%;
+	
+}
+.testimonial-image a img {
+	width: 100%;
+	height: 106%;
+	object-fit: contain;
+}
+.testimonial-content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.testti {
+	margin-left: 45px;
+}
+.testti h1 {
+	font-size: 14px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 11px;
+}
+.testti h3 {
+	font-size: 10px;
+	font-family: "Lato";
+	color: rgb( 204, 204, 204 );
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 18px;
+}
+.testti p {
+	font-size: 16px;
+	font-family: "Merriweather";
+	color: rgb( 255, 255, 255 );
+	font-style: italic;
+	line-height: 1.75;
+	text-align: left;
+	margin-bottom: 70px;
+}
+.slider ul {
+	display: flex;
+	justify-content: center;
+	margin-left: -36%;
+}
+.slider ul li {
+	width: 10px;
+	height: 10px;
+	background: #FFF;
+	margin-right: 5px;
+	border-bottom-left-radius: 5px;
+}
+.slider ul li.active {
+	background-color: rgb( 255, 177, 24 );
+}
+.slider ul li:hover {
+	background-color: rgb( 255, 177, 24 );
+}
+
+
+/*testimonial area end*/
+
+/*blog news area start*/
+
+.sing-box:nth-child(2) {
+	background-color: rgb( 255, 177, 24 );
+		border-bottom: 4px solid rgb( 119, 119, 119 );
+}
+.sing-box {
+	background-color: rgb( 255, 255, 255 );
+	width: 361px;
+	height: 336px;
+	margin-top: -75px;
+	border-bottom: 4px solid rgb( 119, 119, 119 );
+	margin-bottom: 50px;
+}
+.sing-box ul {
+	display: flex;
+	justify-content: flex-end;
+	margin: 254px 20px 0px 0px;
+}
+.sing-box ul li {
+	padding: 20px;
+	background-color: rgb( 255, 177, 24 );
+	border-left: 1px solid #DDD;
+	color: #FFF;
+	text-transform: uppercase;
+}
+.sing-box ul li:first-child {
+	border-bottom-left-radius: 10px;
+	border-left: none;
+}
+.sing-box ul li:last-child {
+	border-top-right-radius: 10px;
+	
+}
+.sing-box:nth-child(2) ul li {
+	  background-color: rgb( 51, 51, 51 );
+	
+}
+
+
+/*blog news area end*/
+
+.service-bottom-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.service-top {
+	display: flex;
+}
+.service-top ul {
+	display: flex;
+	margin-left: 20px;
+}
+.service-top h2 {
+	font-size: 11px;
+	font-family: "Lato";
+	color: rgb( 119, 119, 119 );
+	text-transform: uppercase;
+	text-align: left;
+	margin-bottom: 22px;
+}
+.service-top ul li {
+	margin-right: 6px;
+}
+.service-top ul li i {
+	color: rgb( 255, 177, 24 );
+}
+.service-bottom h1 {
+	font-size: 16px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.5;
+	text-align: left;
+	margin-bottom: 26px;
+}
+.service-bottom p {
+	margin-bottom: 70px;
+	font-size: 14px;
+}
+.service-bottom a {
+	font-size: 12px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	margin-bottom: 110px;
+	margin-left: 14px;
+}
+.service-bottom a::after {
+	content: "";
+	background-color: rgb( 255, 177, 24 );
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	left: 0px;
+	top: -20px;
+}
+.service-bottom a::before {
+	content: "";
+	background-color: rgb( 51, 51, 51 );
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	left: 10px;
+	top: -20px;
+}
+/*call us section start*/
+
+.call-us {
+	text-align: center;
+}
+.call-us p {
+	font-size: 18px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: 8px;
+}
+.call {
+	margin-bottom: 8px;
+}
+.call ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.call li {}
+.call ul li a {
+	  font-size: 38px;
+  font-family: "Titillium";
+  color: rgb( 255, 177, 24 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+.call ul li i {
+	
+}
+.call-us h2 {
+	font-size: 24px;
+	font-family: "Titillium";
+	color: rgb( 51, 51, 51 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 64px;
+}
+.call-image {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+/*clients logo area start*/
+
+
+.clients-logo-area {
+	background-color: rgb( 246, 246, 246 );
+}
+.all-logo-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.single-logo-box {
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb( 238, 238, 238 );
+	background-color: rgb( 255, 255, 255 );
+	width: 263px;
+	height: 103px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	border-bottom: 4px solid rgb( 119, 119, 119 );
+	margin: 80px 0px;
+}
+.single-logo-box:nth-child(2) {
+	border-bottom: 4px solid rgb( 255, 177, 24 );
+}
+
+/*fotter area start*/
+
+.fotter-main-area {
+	background-color: rgb( 17, 17, 17 );
+}
+.newsletter-area {
+	padding-top: 90px;
+}
+.newsletter-content {
+	display: flex;
+	justify-content: space-around;
+	background-color: rgb( 255, 177, 24 );
+	height: 150px;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.newsletter-image {
+	position: relative;
+}
+.newsletter-image img {
+	padding: 23px 7px;
+	position: absolute;
+	background: #FFF;
+	border-radius: 100%;
+	top: -32px;
+	left: 47.5%;
+	border: 7px solid rgba(236, 235, 235, 0.99);
+}
+.subcribe-form form input {
+	margin-top: 72px;
+	font-size: 12px;
+	font-family: "Lato";
+	color: rgb( 255, 255, 255 );
+	text-transform: uppercase;
+	text-align: left;
+	padding: 20px 22px;
+	background: none;
+	border: 1px solid #FFF;
+	width: 450px;
+}
+.subcribe-form form input[type="submit"] {
+	width: 160px;
+	border-bottom-left-radius: 10px;font-size: 14px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	background: rgba(51, 51, 51, 51);
+	border: none;
+	margin-left: 10px;
+	cursor: pointer;
+}
+.letter-content h1 {
+	font-size: 20px;
+	font-family: "Titillium";
+	color: rgb( 255, 255, 255 );
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 75px;
+}
+.letter-content p {
+	font-size: 12px;
+    font-family: "Lato";
+    color: rgb( 255, 255, 255 );
+    text-transform: uppercase;
+    text-align: left;
+
+}
+/*about area start*/
+
+.fotter-content-area {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 85px;
+	border-bottom: 1px solid #FFFFFF1C;
+}
+.about-logo-area {
+	display: flex;
+}
+.about-logo-image img {
+	margin-right: 10px;
+}
+.about-logo-content h1 {
+    font-size: 22px;
+    font-family: "Titillium";
+    color: rgb( 204, 204, 204 );
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.818;
+    text-align: left;
+    margin-bottom: 7px;
+}
+.about-logo-content h3 {
+	font-size: 14px;
+	font-family: "Titillium";
+	color: rgb( 119, 119, 119 );
+	text-transform: uppercase;
+	line-height: 1.286;
+	text-align: left;
+}
+.about-area {
+	width: 46%;
+}
+.about-content p {
+	font-size: 16px;
+	font-family: "Myriad Pro";
+	color: rgb( 153, 153, 153 );
+	text-align: left;
+	margin-top: 40px;
+	padding-right: 5%;
+	line-height: 1.8;
+}
+.about-media-list ul {
+	display: flex;
+}
+.about-media-list ul li {
+	margin-right: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-media-list ul li a i {
+	font-size: 14px;
+	font-family: "FontAwesome";
+	color: rgb( 136, 136, 136 );
+	width: 37px;
+	height: 37px;
+	margin-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb( 51, 51, 51 );
+	box-shadow: 1px 1.732px 3px 0px rgb( 0, 0, 0 );
+	border-bottom-left-radius: 10px;
+	margin-top: 40px;
+}
+.about-media-list ul li a {
+	
+}
+/*service offer */
+
+.service-offer-area {
+	width: 20%;
+}
+
+.service-offer-area h1 {
+	font-size: 14px;
+	font-family: "Titillium";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.4;
+	text-align: left;
+	position: relative;
+}
+.service-offer-area h1::after {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: rgb(255, 177, 24);
+	position: absolute;
+	left: 0px;
+	bottom: -17px;
+}
+.service-offer-area h1::before {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: #FFF;
+	position: absolute;
+	left: 15px;
+	bottom: -17px;
+}
+
+.service-offer-area ul {
+	margin-top: 63px;
+}
+.service-offer-area ul li a {
+	font-size: 18px;
+	font-family: "Lato";
+	color: rgb(153, 153, 153);
+	line-height: 1.8;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+
+/*quick link */
+.quick-link {
+	width: 20%;
+}
+.quick-link h1 {
+	font-size: 16px;
+	font-family: "Titillium";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.4;
+	text-align: left;
+	position: relative;
+}
+.quick-link h1::after {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: rgb(255, 177, 24);
+	position: absolute;
+	left: 0px;
+	bottom: -17px;
+}
+.quick-link h1::before {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: #FFF;
+	position: absolute;
+	left: 15px;
+	bottom: -17px;
+}
+.quick-link ul {
+	margin-top: 63px;
+}
+.quick-link ul li a {
+	font-size: 18px;
+	font-family: "Lato";
+	color: rgb(153, 153, 153);
+	line-height: 1.8;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+
+/*contact details*/
+.contact-details{
+	width: 21%;
+}
+.contact-details h1 {
+	font-size: 16px;
+	font-family: "Titillium";
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.4;
+	text-align: left;
+	position: relative;
+}
+.contact-details h1::after {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: rgb(255, 177, 24);
+	position: absolute;
+	left: 0px;
+	bottom: -17px;
+}
+.contact-details h1::before {
+	content: "";
+	width: 10px;
+	height: 2px;
+	background-color: #FFF;
+	position: absolute;
+	left: 15px;
+	bottom: -17px;
+}
+.contact-details ul {
+	margin-top: 63px;
+}
+.contact-details ul li a {
+	font-size: 18px;
+	font-family: "Lato";
+	color: rgb(153, 153, 153);
+	line-height: 1.8;
+	text-align: left;
+	text-transform: capitalize;
+}
+.contact-details ul h3 {
+	color: #FFF;
+	text-transform: capitalize;
+}
+select {
+	width: 245px;
+	height: 48px;
+	margin-top: 34px;
+	font-size: 16px;
+	font-family: "Lato";
+	color: rgb(153, 153, 153);
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 1.2;
+	padding: 0px 15px;
+	background: transparent;
+	border: 1px solid #FFF;
+}
+.contact-details p {
+	font-size: 12px;
+	margin-top: 20px;
+	color: rgb(153, 153, 153);
+	padding-bottom: 85px;
+}
+
+/*copyright area start*/
+
+.copyright-area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 0px;
+}
+.copyright-area p {
+	font-size: 16px;
+  font-family: "Lato";
+  color: rgb(119, 119, 119);
+  line-height: 1.4;
+  text-align: left;
+}
+.copyright-area p a {
+	font-size: 16px;
+	font-family: "Lato";
+	color: rgb(119, 119, 119);
+	line-height: 1.4;
+	text-align: left;
+	border-bottom: 1px solid #CCCCCC80;
+}
+.copyright-area ul {
+	display: flex;
+	justify-content: end;
+}
+.copyright-area ul li {
+	padding: 0px 10px;
+	border-right: 1px solid #DDD6;
+}
+.copyright-area ul li a {
+	font-size: 16px;
+	font-family: "Lato";
+	color: rgb(119, 119, 119);
+	line-height: 1.2;
+	text-align: right;
+}
+.copyright-area ul li:last-child {
+	border-right: none;
+	padding-right: 0px;
+}

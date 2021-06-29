@@ -1,0 +1,425 @@
+@media all and (max-width: 990px) {
+	.logo-area {
+		margin: 30px 0px 30px 36%;
+	}
+	.menu ul li a {
+		font-size: 13px;;
+	}
+	.menu ul li {
+		padding: 16px 13px;
+		font-size: 11px;
+	}
+	.media-list {
+		margin-left: 11px;
+	}
+	.media-list ul li {
+	}
+	.bottom ul li a.button {
+			width: 164px;
+			margin-left: 0px;
+	}
+	.bottom ul li {
+	padding: 16px 9px;
+}
+	.bottom-ber p::before {
+		left: 3%;
+	}
+	.single-box {
+		width: 239px;
+		height: 252px;
+	}
+	.box-image img {
+		margin: 21px 81px;
+		height: 46px;
+	}
+	.single-box h2::after {5, 177, 24 );
+		left: 45%;
+	}
+	.single-box h2 {
+		margin-bottom: 24px;
+	}
+	.single-box p {
+		font-size: 11px;
+		font-weight: 400;
+		line-height: 1.5;
+	}
+	.service-image {
+		width: 40%;
+	}
+	.content-image img {
+		height: 118px;
+		margin: 100px 0px 85px 76px;
+	}
+	.service-content p {
+		font-size: 14px;
+		margin-left: 37px;
+	}
+	.service-image::before {
+		right: -430px;
+		width: 429px;
+	}
+	.single-item ul li a.button {
+		padding: 27px 13px 27px 70px;
+	}
+	.all-item {
+		width: 55%;
+	}
+	.service-image {
+		width: 44%;
+	}
+	.section-heading h1::before {
+		top: 76px;
+	}
+	.section-heading h1::after {
+		top: 76px;
+	}
+	
+	.all-single i {
+		margin: 9px 0px 14px 93px;
+	}
+	.content-image::after {
+		left: 50%;
+	}
+	.content-image::before {
+		left: 57%;
+	}
+	.portfolio-title p {
+		font-size: 14px;
+	}
+	.section-heading h1::before {
+		left: 54%;
+	}
+	.section-heading h1::after {
+		left: 39%;
+	}
+	.single-items {
+		justify-content: center;
+	}
+	.content {	
+		width: 46%;
+	}
+	.portfolio-item {
+		margin-left: -55px;
+	}
+	.content p {
+		font-size: 14px;
+	}
+	.content h1 {
+		font-size: 18px;
+	}
+	.arrow-image img {
+		margin-left: 48%;
+	}
+	.download-content h1 {
+		font-size: 18px;
+		text-align: center;
+		margin-top: 62px;
+	}
+	.download-content p {
+		margin-bottom: 32px;
+		font-size: 16px;
+	}
+	.download-button button {
+		margin-bottom: 30px;
+	}
+	.all-offer {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.quote-left {
+		text-align: center;
+		font-size: 14px;
+	}
+	.quote-right {
+		text-align: center;
+		font-size: 14px;
+	}
+	.quote-image img {
+		left: 45.5%;
+	}
+	.contact-area {
+		margin-left: 14.5%;
+	}
+	.all-logo-box {
+		display: flex;
+		justify-content: center;
+	}
+	.single-logo-box {
+		margin: 16px 20px;
+	}
+	.clients-logo {
+		padding: 44px 0px;
+	}
+	.subcribe-form form input {
+		width: 180px;
+	}
+	.single-box h2 {
+		font-size: 14px;
+	}
+	.box-image img {
+		margin: 21px 93px;
+	}
+	.all-single i {
+		margin: 22px 0px 18px 93px;
+	}
+	.subcribe-form form input[type="submit"] {
+		width: 125px;
+	}
+	.letter-content h1 {
+		font-size: 18px;
+	}
+	.section-heading h1::before {
+		top: 82px;
+	}
+	.section-heading h1::after {
+		top: 82px;
+	}
+	.newsletter-image img {
+		padding: 20px 4px;
+	}
+	form {
+		margin-bottom: 20px;
+	}
+	.fotter-content-area {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.about-area {
+		width: 128%;
+		margin-bottom: 64px;
+	}
+	.service-offer-area {
+		width: 50%;
+		margin-left: 26%;
+	}
+	.quick-link {
+		width: 50%;
+	}
+	.contact-details {
+		width: 75%;
+		margin-left: 26%;
+	}	
+@media all and (max-width: 768px) {
+	.logo-area {
+		margin: 30px 0px 30px 31%;
+	}
+	.bottom ul li a.button {
+		margin-left: 100%;
+	}
+	.bottom-ber p::before {
+		left: 4%;
+	}
+	.section-heading h1::before {
+		top: 75px;
+		left: 56%;
+	}
+	.section-heading h1::after {
+		top: 75px;
+		left: 35%;
+	}
+	.single-box {
+		width: 267px;
+	}
+	.single-box h2 {
+		font-size: 14px;
+	}
+	.single-box p {
+		font-size: 14px;
+	}
+	.single-box {
+		margin-bottom: 39px;
+	}
+	.single-box:nth-child(3) {
+		margin: 0px auto 50px;
+	}
+	.single-item ul li {
+	}
+	.service-image img {
+		width: 84%;
+		height: 590px;
+	}
+	.single-item ul {
+		list-style: none;
+		margin-left: -31%;
+	}
+	.service-image::before {
+		right: -393px;
+		width: 442px;
+	}
+	.service-content p {
+		font-size: 14px;
+		margin-left: 30px;
+	}
+	.content-image img {
+		margin: 63px 0px 41px 49px;
+	}
+	.content-image::after {;
+		left: 53%;
+		bottom: 12%;
+	}
+	.content-image::before {
+		left: 62%;
+		bottom: 12%;
+	}
+	.content h1 {
+		font-size: 17px;
+	}
+	.all-item {
+		width: 60%;
+		z-index: 2;
+	}
+	.single-item ul li a.button {
+		padding: 30px 0px 30px 70px;
+	}
+	.all-single i {
+		margin: 25px 0px 25px 53px;
+	}
+	.portfolio-title p {
+		font-size: 13px;
+	}
+	.content {
+		width: 60%;
+	}
+	.download-button {
+		margin-left: -12px;
+	}
+	.content h1 {
+		font-size: 16px;
+	}
+	.download-content h1 {
+		font-size: 24px;
+	}
+	.menu ul li a {
+		font-size: 12px;
+	}
+	.bottom ul li a {
+		font-size: 13px;
+	}
+	.box-image img {
+		margin: 21px 105px;
+	}
+	.all-single i {
+		margin: 16px 0px 25px 53px;
+	}
+	.section-heading h1::before {
+		top: 83px;
+		left: 56%;
+	}
+
+	.single-item ul li a.button {
+		padding: 30px 0px 30px 54px;
+	}
+	.section-heading h1::after {
+		top: 83px;
+	}
+	.download-content p {
+		font-size: 13px;
+	}
+	.download-content i {
+		top: -41px;
+		left: 43%;
+		width: 70px;
+		height: 70px;
+	}
+	.offer-content h3 {
+		font-size: 14px;
+	}
+	.offer-content p {
+		font-size: 11px;
+	}
+	.offer-content {
+		margin-left: 0px;
+	}
+	.offer-image {
+		margin-right: 23px;
+	}
+	.quote-one {
+		width: 50.5%;
+		height: 113px;
+	}
+	.quote-left {
+		font-size: 11px;
+	}
+	.quote-left {
+		margin-top: 43px;
+	}
+	.quote-two {
+		height: 113px;	
+	}
+	.quote-right {
+		font-size: 11px;
+		margin-top: 43px;
+		margin-right: 0px;
+	}
+	.quote-image img {
+		top: 27px;
+	}
+	.contact-area {
+		margin-left: 0%;
+	}
+	.single-logo-box {
+		margin: 16px 4px;
+	}
+	.subcribe-form form input {
+		width: 200px;
+		padding: 13px 22px;
+	}
+	.letter-content h1 {
+		font-size: 28px;
+		margin-top: 70px;
+	}
+	.letter-content p {
+		font-size: 16px;
+		margin-bottom: -36px;
+	}
+	.newsletter-image img {
+		padding: 18px 2px;
+	}
+	.newsletter-image img {
+		top: -36px;
+		left: 42.5%;
+	}
+	.subcribe-form {
+		margin-bottom: 20px;
+	}
+	.about-content p {
+		font-size: 14px;
+	}
+	.service-offer-area {
+		width: 73%;
+		margin-left: 40%;
+	}
+	.service-offer-area ul li a {
+		font-size: 14px;
+	}
+	.quick-link ul li a {
+		font-size: 14px;
+	}
+	.contact-details ul li a {
+		font-size: 14px;
+	}
+	.contact-details {
+		width: 89%;
+		margin-left: 0%;
+	}
+	.copyright-area p a {
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.copyright-area p {
+		font-size: 12px;
+		font-weight: 300;
+	}
+	.copyright-area ul li a {
+		font-size: 14px;
+		font-weight: 300;
+	}
+	.contact-details ul h3 {
+		font-size: 12px;
+		font-family: "Lato";
+		font-weight: 300;
+	}
+	.copyright-area p a {
+		font-weight: 400;
+	}
+	
+}	
